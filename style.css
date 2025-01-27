@@ -1,0 +1,378 @@
+body{
+    height:350vh;
+    margin:0;
+    background:linear-gradient(to bottom,#370617,#03071e);
+    
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+.custom-icon{
+    fill: red;
+    stroke: black;
+}
+.logo{
+    width:160px;
+    top:2%;
+    justify-content: flex-end;
+    gap:2px;
+    left:3%;
+    position: absolute;
+    display:flex;
+    
+
+}
+.BUTTON{
+    align-items:center;
+    justify-content: right;
+    position: absolute;
+    top:3%; /* Adjust as needed */
+     /* Adjust as needed */
+    width: 100%;
+    display:flex;
+    gap:7px;
+    right:3%;
+}
+button.ENG{
+    width:120px;
+    height:30px;
+    border-radius: 20px;
+    background: transparent;
+    font-size: medium;
+    font-family:'Segoe UI';
+    color: white;
+    border: 1px solid white;
+   
+}
+
+button.SIGN{
+    width:80px;
+    height:30px;
+    
+    border-radius: 20px ;
+    background-color: white;
+    border:1px white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: medium;
+    
+
+}
+
+
+.FIRST{
+    top:40px;
+    position:relative;
+    justify-content: space-between;
+    
+}
+nav{
+    
+    position:sticky;
+    justify-items: center;
+   
+    
+    
+}
+ul{
+    justify-content: space-between;
+    
+    
+    gap:3px;
+    width:500px;
+    height:30px;
+    color:beige;
+    border-radius: 20px;
+    background-color: #190109;
+    border:2px ;
+    display: flex;
+    padding:3px;
+    
+
+    
+}
+
+li{
+    display:inline-flex;
+    gap:7px;
+    padding: 0 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+
+nav ul li:hover{
+    text-decoration: underline;
+    cursor:pointer;
+    background-color:rgb(23, 20, 20) ;
+    border-radius:10px;
+}
+
+.box1{
+    top:80px;
+    border-radius: 50px;
+   border-style: dashed;
+   border: 2px solid white;
+    background-image: url("assets/img/IN-en-20241216-TRIFECTA-perspective_b9e31aa0-20e4-4848-956f-30354cfaa83e_large.jpg"); 
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    width:1000px;
+    height:500px;
+    color:#fff;
+    justify-items: center;
+    text-align: center;
+    filter: blur(10%);
+    left:270px;
+    background-color: transparent;
+    
+}
+
+.box1 h1 pre{
+    font-family:'Segoe UI';
+    font-weight: 800;
+    position: absolute;
+    bottom:20%;
+    left:45%;
+    text-align: center;
+    justify-self: center;
+    color:white;
+    font-size:50px;
+    align-self: center;
+    right:35%;
+    stroke:black;
+
+}
+
+.box1 p{
+    bottom:15%;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    left:35%;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.NEXT{
+    color:beige;
+    top:100px;
+    position: relative;
+   left:550px;
+
+}
+
+.button2{
+    position: relative;
+    top : 120px;
+    left: 520px;
+    gap:5px;
+    ;
+}
+.join{
+    background-color: red;
+    color:white;
+    width:100px;
+    height:30px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+
+.em{
+    background-color:transparent;
+    border:2px solid white;
+    width:450px;
+    padding:10px;
+    border-radius: 15px;
+    color:rgb(255, 255, 167)
+}
+
+::placeholder {
+    color:beige;
+    opacity: 1; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+.T{
+    top:150px;
+    position:relative;
+    left:80px;
+    color:beige;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.button3{
+    top:110px;
+    left:990px;
+    position:relative;
+    gap:20px;
+
+}
+.region{
+    width:120px;
+    height:35px;
+    padding:8px;
+    background-color: transparent;
+    color:beige;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight:400;
+    border-radius:20px;
+    font-size:15px;
+    margin-right:30px;
+    border:2px solid white;
+}
+
+.content{
+    width:120px;
+    height:35px;
+    padding:8px;
+    background-color: transparent;
+    color:beige;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight:400;
+    border-radius:20px;
+    font-size:15px;
+    border:2px solid white;
+}
+
+.swiper-container {
+    width: 90%;
+    padding: 20px 0;
+    margin:20px;
+  }
+
+  /* Grid Layout for Swiper */
+  .swiper-wrapper {
+    display: grid;
+    grid-template-rows:100px;
+    grid-template-columns: 90px 90px 90px 80px 80px 80px 80px ; /* Set 4 columns in the grid */
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    top:125px;
+    left:60px;
+    position: relative;
+    
+  }
+
+  /* Styling for Individual Slides */
+  .swiper-slide {
+    height: 270px;
+    width: 170px;
+    
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+  }
+
+  /* Image Styling */
+  .swiper-slide img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+
+    border-radius:10px
+  }
+
+  /* Optional Navigation Buttons */
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: black;
+  }
+
+  .swiper-pagination-bullet {
+    background: black;
+  }
+
+
+.bottom h3{
+    top:480px;
+    position:relative;
+    left:80px;
+    color:beige;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    
+}
+
+.cont{
+    top:420px;
+    justify-content:space-evenly;
+    grid-template-rows:80px;
+    grid-template-columns: 10px 10px 10px 10px ;
+    display:grid;
+    position:relative;
+    cursor:pointer;
+    overflow-wrap: normal;
+    
+    
+}
+
+.item{
+    border:2px solid black;
+    background: none;
+    background-color: #474444b6;
+    color:beige;
+    width:200px;
+    height:70px;
+    border-radius: 10px;
+    justify-content: flex-start;
+    padding: 0.75rem 1rem 5.25rem 1rem;
+}
+
+.item svg{
+    justify-self:right;
+    justify-items: flex-end;
+    display:flex;
+    bottom:0px;
+    position: relative;
+    padding-top: 40px;
+    
+   
+    
+
+}
+
+section h2{
+    font-weight: 500;
+    color:beige;
+    top:510px;
+    left:600px;
+    position:relative;
+}
+
+.box2{
+    border:2px ;
+    width:750px;
+    height:45px;
+    color:beige;
+    background-color: grey;
+    top:530px;
+    left:370px;
+    position: relative;
+    padding:24px;
+    justify-content:space-between;
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:20px;
+    border-radius: 10px;
+    margin:20px
+
+    
+
+
+}
+
+
+
+
+
+
